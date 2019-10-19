@@ -1,0 +1,451 @@
+
+html
+{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    
+}
+
+body
+{
+    
+    background-attachment: fixed;
+}
+
+#wide
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#header-text
+{
+    font-size: 1.5rem;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.main-img img{
+    width: 100%;
+    height: 20rem;
+}
+
+.imgs img{
+    width: 100%;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+
+
+#center
+{
+    margin-left: 15%;
+}
+
+.larger-font
+{
+    font-size: 1.5rem;
+}
+
+.parallax
+{
+    background-image: url("../backyardpicmed.jpg");
+
+    background-position: 65% 35%;
+    background-attachment: fixed;
+}
+
+.parallax1
+{
+    background-image: url("../backyardpicmed.jpg");
+    height: 15rem;
+    background-position: 65% 35%;
+    background-attachment: fixed;
+}
+
+.parallax2
+{
+    background-image: url("../crazy1.jpg");
+    height: 15rem;
+    background-position: 50% 0%;
+    background-attachment: fixed;
+    margin-top: -1rem;
+    transform: scale(1)
+    
+    
+}
+
+.parallax3
+{
+    background-image: url("../familygrouppic.jpg");
+    height: 15rem;
+    background-position: 45% 50%;
+    background-attachment: fixed;
+    margin-top: -1rem;
+    
+    
+    
+}
+
+.parallax4
+{
+    background-image: url("../services1.jpg");
+    height: 15rem;
+    background-position: 65% 0%;
+    background-attachment: fixed;
+    margin-top: -1rem;
+}
+.parallax5
+{
+    background-image: url("../planning1.jpg");
+    height: 15rem;
+    background-position: 48% 0%;
+    background-attachment: fixed;
+    margin-top: -1rem;
+}
+
+.parallax6
+{
+    background-image: url("../meetUs.jpg");
+    height: 15rem;
+    background-position: 48% 42%;
+    background-attachment: fixed;
+    margin-top: -1rem;
+    
+    
+}
+
+.parallax7
+{
+    background-image: url("../meetUs.jpg");
+    height: 15rem;
+    background-position: 48% 42%;
+    background-attachment: fixed;
+    margin-top: -3rem;
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.par-span
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 2rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+.family-photo
+{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.marg-top
+{
+    margin-top: 3rem;
+}
+
+#push-dwn
+{
+    margin-bottom: 3rem;
+}
+
+#pull-up{
+    margin-bottom: -0.5rem;
+}
+
+#lowered
+{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    
+}
+
+
+#l-margin
+{
+    font-size: 2rem;
+    margin-left: 5rem;
+    font-family: 'Barlow Semi Condensed';
+    width: 40%;
+    
+    
+}
+
+#font-form
+{
+    font-size: 1.5rem;
+    font-family: 'Barlow Semi Condensed';
+}
+
+#index-image
+{
+    height: 20rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hidden
+{
+    display: none;
+    transform: translate3d(0, 0px, 0px); opacity: 1;
+}
+
+#med-width
+{
+    
+    margin: 0px  auto 5rem auto;
+    width: 50%;
+    
+}
+
+#pict{
+    height: 30rem;
+    overflow: hidden;
+}
+
+.padded
+{
+    padding: 3rem;
+}
+
+#spaced
+{
+    padding-left: -.5rem;
+}
+
+.property
+{
+    padding: 1rem;
+    font-size: .9rem;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    width: 80%;
+}
+
+@media(min-width: 600px)
+{
+    body
+    {
+        background-image: url('../backyardpic.jpg');
+        background-attachment: fixed;
+    }
+}
+
+@media(max-width: 600px)
+{
+    header
+    {
+        
+        margin-bottom: -42px;
+    }
+}
+
+@keyframes fade-in{
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fade-in 0.5s ease-in 1 forwards;
+}
+
+/* @media(min-width: 200px)
+{
+    #card1
+    {
+        margin-left: 3%;
+    }
+    #card2
+    {
+        margin-left: 10%;
+    }
+    #card3
+    {
+        margin-left: 10%;
+    }
+}
+
+@media(min-width: 215px)
+{
+    #card1
+    {
+        margin-left: 7%;
+    }
+    #card2
+    {
+        margin-left: 15%;
+    }
+    #card3
+    {
+        margin-left: 12%;
+    }
+}
+@media(min-width: 225px)
+{
+    #card1
+    {
+        margin-left: 9%;
+    }
+    #card2
+    {
+        margin-left: 12%;
+    }
+    #card3
+    {
+        margin-left: 15%;
+    }
+}
+@media(min-width: 235px)
+{
+    #card1
+    {
+        margin-left: 12%;
+    }
+    #card2
+    {
+        margin-left: 20%;
+    }
+    #card3
+    {
+        margin-left: 20%;
+    }
+}
+@media(min-width: 250px)
+{
+    #card1
+    {
+        margin-left: 14%;
+    }
+}
+
+@media(min-width: 280px)
+{
+    #card1
+    {
+        margin-left: 18%;
+    }
+    #card2
+    {
+        margin-left: 25%;
+    }
+    #card3
+    {
+        margin-left: 23%;
+    }
+}
+@media(min-width: 295px)
+{
+    #card1
+    {
+        margin-left: 25%;
+    }
+    #card3
+    {
+        margin-left: 26%;
+    }
+}
+@media(min-width: 304px)
+{
+    #card1
+    {
+        margin-left: 24%;
+    }
+    #card2
+    {
+        margin-left: 28%;
+    }
+    #card3
+    {
+        margin-left: 27%;
+    }
+}
+@media(min-width: 320px)
+{
+    #card1
+    {
+        margin-left: 26%;
+    }
+    #card2
+    {
+        margin-left: 30%;
+    }
+    #card3
+    {
+        margin-left: 28%;
+    }
+}
+
+@media(min-width: 352px)
+{
+    #card1
+    {
+        margin-left: 28%;
+    }
+    #card2
+    {
+        margin-left: 30%;
+    }
+    #card3
+    {
+        margin-left: 30%;
+    }
+}
+
+@media(min-width: 365px)
+{
+    #card1
+    {
+        margin-left: 29%;
+    }
+    #card2
+    {
+        margin-left: 30%;
+    }
+    #card3
+    {
+        margin-left: 30%;
+    }
+}
+
+@media(min-width: 386px)
+{
+    #card1
+    {
+        margin-left: 30%;
+    }
+    #card2
+    {
+        margin-left: 30%;
+    }
+    #card3
+    {
+        margin-left: 30%;
+    }
+}
+
+ */
+
+
